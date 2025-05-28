@@ -1,0 +1,13 @@
+﻿<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Topmost="True"
+    Background="Black"
+>
+    <StackPanel Background="Black" VerticalAlignment="Center">
+
+        <TextBlock TextAlignment="Center" FontFamily="Stencil" FontSize="1000" TextWrapping="WrapWithOverflow" VerticalAlignment="Center" Foreground="White">
+            3
+        </TextBlock>
+    </StackPanel>
+</Window>
