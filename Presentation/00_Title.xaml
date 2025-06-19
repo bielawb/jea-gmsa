@@ -25,7 +25,7 @@
             - better together
         </TextBlock>
         <Image Grid.Column="1" Grid.Row="2" Source="Media/Malmo25.png" HorizontalAlignment="Right" Height="100" />
-        <Image Grid.Column="0" Grid.RowSpan="3" Source="Media/JEA-GMSA.jpg">
+        <Image Grid.Column="0" Grid.RowSpan="3" Source="Media/mostt.png">
             <Image.Effect>
                 <DropShadowEffect Direction="-45" Color="#FFB6C2CB" ShadowDepth="10" BlurRadius="14" />
             </Image.Effect>

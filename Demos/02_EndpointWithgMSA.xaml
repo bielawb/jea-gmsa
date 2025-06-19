@@ -20,7 +20,7 @@
             <TextBlock.Effect>
                 <DropShadowEffect Direction="-45" Color="#FFB6C2CB" ShadowDepth="10" BlurRadius="14" />
             </TextBlock.Effect>
-            Constrained what?
+            Endpoint with gMSA
         </TextBlock>
         <Image Grid.Row="1" Grid.ColumnSpan="3" Source="../Presentation/Media/mostt.png" >
              <Image.Effect>

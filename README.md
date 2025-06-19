@@ -1,6 +1,7 @@
+
 # Constrained Endpoints and gMSA - better together
 
-![Human Bridge/ Hania Bielawska](Presentation/Media/JEA-GMSA.jpg)
+![Human Bridge/ Hania Bielawska](Presentation/Media/mostt.png)
 
 Folders:
 

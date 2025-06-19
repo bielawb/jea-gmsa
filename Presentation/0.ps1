@@ -1,4 +1,5 @@
 ﻿$creds = Import-Clixml -Path C:\RecycleBin\creds.clixml
+$local = Import-Clixml -Path C:\RecycleBin\local.clixml
 # $session = New-PSSession -ComputerName 192.168.56.10 -Credential $creds
 $sampleFolder = Join-Path $PSScriptRoot -ChildPath SampleFiles
 if ($env:PSModulePath -split ';' -notcontains $sampleFolder) {
@@ -14,8 +15,11 @@ $main = @($psISE.CurrentPowerShellTab.Files.Where{ $_.DisplayName -eq '00_Title.
 Start-Sleep -Milliseconds 100
 $wshell.SendKeys('^r')
 do {
+    if ($justTesting) {
+        break
+    }
     Start-Sleep -Seconds 10
-} while ((Get-Date).Hour -lt 9)
+} while ((Get-Date).Hour -lt 14)
 
 # 3... 2... 1... countdown - PS ISE style. :P
 foreach ($file in $0, $3, $2, $1) {
