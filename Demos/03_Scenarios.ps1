@@ -32,6 +32,5 @@ Get-ScheduledTask -TaskName FakeSCOM | ForEach-Object -MemberName Principal
 Start-ScheduledTask -TaskName FakeSCOM
 Get-Content -Path C:\Windows\Temp\scom.json
 
-
 # PSU
 Start-Process -FilePath https://psu.igo.com/dns/Home
