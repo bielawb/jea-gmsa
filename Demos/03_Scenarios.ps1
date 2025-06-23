@@ -17,7 +17,7 @@ Get-Command
 Exit-PSSession
 $remote = New-PSSession -ComputerName PSU -Credential $creds -ConfigurationName SkyNet
 $token = Get-Credential token
-Invoke-Command -Session $remote -ScriptBlock { Export-Clixml -Path ~\SkyNetToken.clixml -InputObject $using:token }
+Invoke-Command -Session $remote -ScriptBlock { Export-Clixml -Path ~\SkyNetToken.clixml -InputObject $using:token -Verbose }
 Invoke-Command -Session $remote -ScriptBlock { Get-SkyNetData -Verbose }
 Invoke-Command -Session $remote -ScriptBlock { Import-Clixml -Path ~\SkyNetToken.clixml }
 
