@@ -29,27 +29,27 @@
         </Image>
         <StackPanel Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" Margin="20,20,20,20">
           <StackPanel Orientation="Horizontal">
-            <Image Source="Media/army-ant.jpg" RenderOptions.BitmapScalingMode="Fant" Stretch="Fill"
+            <Image Source="Media/single-part.png" RenderOptions.BitmapScalingMode="Fant" Stretch="Fill"
               Width="120" VerticalAlignment="Center" Margin="20,20,20,20" />
             <TextBlock VerticalAlignment="Center" FontSize="35" FontFamily="CaskaydiaCove Nerd Font Mono">Constrained What?</TextBlock>
           </StackPanel>
           <StackPanel Orientation="Horizontal">
-            <Image Source="Media/army-ant.jpg" RenderOptions.BitmapScalingMode="Fant" Stretch="Fill"
+            <Image Source="Media/single-part.png" RenderOptions.BitmapScalingMode="Fant" Stretch="Fill"
               Width="120" VerticalAlignment="Center" Margin="20,20,20,20" />
             <TextBlock VerticalAlignment="Center" FontSize="35" FontFamily="CaskaydiaCove Nerd Font Mono">gMSA 101</TextBlock>
           </StackPanel>
           <StackPanel Orientation="Horizontal">
-            <Image Source="Media/army-ant.jpg" RenderOptions.BitmapScalingMode="Fant" Stretch="Fill"
+            <Image Source="Media/single-part.png" RenderOptions.BitmapScalingMode="Fant" Stretch="Fill"
               Width="120" VerticalAlignment="Center" Margin="20,20,20,20" />
             <TextBlock VerticalAlignment="Center" FontSize="35" FontFamily="CaskaydiaCove Nerd Font Mono">Endpoint with gMSA</TextBlock>
           </StackPanel>
           <StackPanel Orientation="Horizontal">
-            <Image Source="Media/army-ant.jpg" RenderOptions.BitmapScalingMode="Fant" Stretch="Fill"
+            <Image Source="Media/single-part.png" RenderOptions.BitmapScalingMode="Fant" Stretch="Fill"
               Width="120" VerticalAlignment="Center" Margin="20,20,20,20" />
             <TextBlock VerticalAlignment="Center" FontSize="35" FontFamily="CaskaydiaCove Nerd Font Mono">Scenarios</TextBlock>
           </StackPanel>
           <StackPanel Orientation="Horizontal">
-            <Image Source="Media/army-ant.jpg" RenderOptions.BitmapScalingMode="Fant" Stretch="Fill"
+            <Image Source="Media/single-part.png" RenderOptions.BitmapScalingMode="Fant" Stretch="Fill"
               Width="120" VerticalAlignment="Center" Margin="20,20,20,20" />
             <TextBlock VerticalAlignment="Center" FontSize="35" FontFamily="CaskaydiaCove Nerd Font Mono">Q&amp;A</TextBlock>
           </StackPanel>

